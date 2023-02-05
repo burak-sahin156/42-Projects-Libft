@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: seryilma <@student.42istanbul.com.tr>      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/23 18:40:12 by seryilma          #+#    #+#             */
-/*   Updated: 2022/02/23 18:40:21 by seryilma         ###   ########.tr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
@@ -33,6 +21,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 }
 //  int main()
 //  {
-//      char halil[] = "halil deneme kopyala";
-//      printf("%s", ft_substr(halil, 6,11));
+//      char burak[] = "burak deneme kopyala";
+//      printf("%s", ft_substr(burak, 6,11));
 //  }

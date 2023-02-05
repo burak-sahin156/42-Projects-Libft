@@ -1,26 +1,8 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   additional_functions.c                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: alelievr <alelievr@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created  2018/05/04 19:48:47 by alelievr          #+#    #+#             */
-/*   Updated  2018/05/04 19:48:47 by alelievr         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include "libft_test.h"
 
 
-/*
- * GNU simple memcmp implementation, used as reference to test the optimized one
- *
- * https://github.com/lattera/glibc/blob/master/string/test-memcmp.c
-*/
-
-	int
-simple_memcmp (const char *s1, const char *s2, size_t n)
+int simple_memcmp (const char *s1, const char *s2, size_t n)
 {
 	int ret = 0;
 

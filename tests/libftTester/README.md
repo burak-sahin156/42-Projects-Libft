@@ -15,7 +15,6 @@ make dockerm = launch mandatory tests in linux container
 make dockerb = launch bonus tests in linux container  
 make dockera = launch mandatory tests + bonus tests in linux container  
 make docker [function name] = launch associated test in linux container ex: `make dockercalloc`  
-Thanks to gurival- for the docker idea (https://github.com/grouville/valgrind_42)  
 
 make vs [function name] = open the corresponding tests in vscode ex: `make vscalloc`  
 
